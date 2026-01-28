@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Website Toko Online Perhiasan Juwellaa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Juwellaa✨</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#beranda">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#tentangkami">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#koleksi">Koleksi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#testimonipelanggan">Testimoni Pelanggan</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Formulir
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="daftarmember.html">Daftar Member</a></li>
+                                <li><a class="dropdown-item" href="hubungikami.html">Hubungi Kami</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cari perhiasan..."
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Cari</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="hubungikami">
+        <main class="container contact-container">
+            <header class="contact-header text-center">
+                <h1 class="fw-bold text-uppercase">Hubungi Kami</h1>
+                <div class="header-line"></div>
+            </header>
+            <div class="row g-5">
+                <div class="col-md-5">
+                    <div class="contact-info">
+                        <div class="info-item d-flex align-items-start">
+                            <i class="bi bi-geo-alt-fill me-3"></i>
+                            <p>Jl. Melati Indah No. 27, Jakarta Selatan, DKI Jakarta, Indonesia</p>
+                        </div>
+                        <div class="info-item d-flex align-items-start">
+                            <i class="bi bi-envelope-fill me-3"></i>
+                            <p>support@juwellaa.com</p>
+                        </div>
+                        <div class="info-item d-flex align-items-start">
+                            <i class="bi bi-telephone-fill me-3"></i>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                        <div class="info-item d-flex align-items-start">
+                            <i class="bi bi-clock-fill me-3"></i>
+                            <div class="opening-hours">
+                                <p>Senin - Jumat: 09.00 - 18.00 WIB</p>
+                                <p>Sabtu: 10.00 - 15.00 WIB</p>
+                                <p>Tutup: Minggu & Hari Libur Nasional</p>
+                            </div>
+                        </div>
+                        <div class="info-item d-flex align-items-start">
+                            <i class="bi bi-globe me-3"></i>
+                            <p>www.juwellaa.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form id="formHubungi" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nama" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail Anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <div class="text-start">
+                            <button type="submit" class="btn btn-kirim">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary">© 2026 Juwellaa</p>
+                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html#beranda" class="nav-link px-2 text-body-secondary">Beranda</a></li>
+                    <li class="nav-item"><a href="index.html#tentangkami" class="nav-link px-2 text-body-secondary">Tentang Kami</a></li>
+                    <li class="nav-item"><a href="index.html#koleksi" class="nav-link px-2 text-body-secondary">Koleksi</a></li>
+                    <li class="nav-item"><a href="index.html#testimonipelanggan" class="nav-link px-2 text-body-secondary">Testimoni Pelanggan</a></li>
+                    <li class="nav-item"><a href="daftarmember.html" class="nav-link px-2 text-body-secondary">Daftar Member</a></li>
+                    <li class="nav-item"><a href="hubungikami.html" class="nav-link px-2 text-body-secondary">Hubungi Kami</a></li>
+                    <li class="nav-item"><a href="checkout.html" class="nav-link px-2 text-body-secondary">Checkout</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () {
+            'use strict'
+            const form = document.getElementById('formHubungi')
+            form.addEventListener('submit', function (event) {
+                event.preventDefault()
+                event.stopPropagation()
+                if (!form.checkValidity()) {
+                    form.classList.add('was-validated')
+                } else {
+                    alert('Pesan berhasil dikirim! Kami akan menghubungi Anda segera.')
+                    form.reset()
+                    form.classList.remove('was-validated')
+                }
+            }, false)
+        }) ()
+    </script>
+</body>
+
+</html>
